@@ -1,5 +1,7 @@
 @import url('../vendor/normalize.css');
 
+@import url('../vendor/fonts/fonts.css');
+
 @import url('../blocks/page/page.css');
 
 @import url('../blocks/link-opacity/link-opacity.css');
@@ -45,36 +47,6 @@
 @import url('../blocks/footer/__list/footer__list.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
-
-@font-face { 
-    src:
-        local('Inter-Regular'),
-        url('../fonts/Inter-Regular.woff2') format('woff2'), 
-        url('../fonts/Inter-Regular.woff') format('woff'); 
-    font-family: "Inter"; 
-    font-weight: 400; 
-    font-style: normal; 
- } 
- 
- @font-face { 
-    src:
-        local('Inter-Bold'),
-        url('../fonts/Inter-Bold.woff2') format('woff2') , 
-        url('../fonts/Inter-Bold.woff') format('woff'); 
-    font-family: "Inter"; 
-    font-weight: 700; 
-    font-style: normal; 
- } 
- 
- @font-face { 
-    src:
-        local('Inter-Black')
-        url('../fonts/Inter-Black.woff2') format('woff2') , 
-        url('../fonts/Inter-Black.woff') format('woff'); 
-    font-family: "Inter"; 
-    font-weight: 900; 
-    font-style: normal;
- }
 
  .outln {
     outline: 1px solid red;
