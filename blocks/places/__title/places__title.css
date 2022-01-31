@@ -7,3 +7,9 @@
     line-height: 1.06;
     letter-spacing: 2px;
 }
+
+@media screen and (max-width:1024px) {
+    .places__title {
+        max-width: 440px;
+    }
+}

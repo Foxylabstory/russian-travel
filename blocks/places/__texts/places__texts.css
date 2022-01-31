@@ -1,3 +1,9 @@
 .places__texts {
     padding-left: 40px;
 }
+
+@media screen and (max-width:1024px) {
+    .places__texts {
+        padding-left: 32px;
+    }
+}

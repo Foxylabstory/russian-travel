@@ -30,3 +30,12 @@
     opacity: 0.8;
     cursor: pointer;
 }
+
+@media screen and (max-width:1024px) {
+    .cover {
+        margin: 0;
+        padding-top: 195px;
+        padding-bottom: 195px;
+        max-width: 100%
+    }
+}
