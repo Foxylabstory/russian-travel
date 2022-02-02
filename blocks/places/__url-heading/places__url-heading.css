@@ -8,3 +8,9 @@
     letter-spacing: 2px;
     color: #AAAAAA;
 }
+/*
+@media (max-width: 768px) {
+    .places__url-heading {
+        padding-bottom: 73px;
+    }
+}*/

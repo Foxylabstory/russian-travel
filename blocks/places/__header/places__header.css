@@ -2,3 +2,9 @@
     display: flex;
     padding-bottom: 48px;
 }
+
+@media (max-width: 768px) {
+    .places__header {
+        padding-bottom: 43px;
+    }
+}

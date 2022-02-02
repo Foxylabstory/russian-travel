@@ -30,6 +30,7 @@
 @import url('../blocks/places/__place/places__place.css');
 @import url('../blocks/places/__header/places__header.css');
 @import url('../blocks/places/__title/places__title.css');
+@import url('../blocks/places/__title/places__title_text-letter-space.css');
 @import url('../blocks/places/__website/places__website.css');
 @import url('../blocks/places/__url-heading/places__url-heading.css');
 @import url('../blocks/places/__link/places__link.css');
@@ -56,5 +57,10 @@
     .outln {
         outline: 1px solid green;
      }
-     
+ }
+
+ @media (max-width: 768px) {
+    .outln {
+        outline: 1px solid rosybrown;
+     }
  }

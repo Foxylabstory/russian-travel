@@ -1,15 +1,25 @@
 .lead__image {
     margin: 0 auto;
     padding-left: 148px;
-    padding-right: 148px;
+    padding-right: 131px;
     padding-bottom: 8px;
-    width: calc(100% - 148px*2);
+    width: calc(100% - 139.5px * 2);
+    
+    
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
     .lead__image {
         padding-left: 48px;
-        padding-right: 32px;
-        width: calc(100% - 40px*2);
+        padding-right: 31px;
+        width: calc(100% - 39.5px*2);
+    }
+}
+
+@media (max-width: 768px) {
+    .lead__image {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
 }

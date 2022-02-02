@@ -1,11 +1,18 @@
 .intro__container {
-    max-width: 100%;
+    max-width: 690px;
     padding-left: 148px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
     .intro__container {
         padding-left: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro__container {
+        padding-left: 24px;
+        max-width: 720px;
     }
 }
