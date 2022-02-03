@@ -28,3 +28,13 @@
         letter-spacing: 1.4px;    
     }
 }
+
+@media (max-width: 320px) {
+    .places__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 1.09;
+        padding-left: 16px;
+        padding-bottom: 21px; /*32*/
+    }
+}

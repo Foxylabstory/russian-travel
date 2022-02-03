@@ -8,3 +8,10 @@
         padding-bottom: 43px;
     }
 }
+
+@media (max-width: 320px) {
+    .places__header {
+        display: block;
+        padding-bottom: 32px;
+    }
+}

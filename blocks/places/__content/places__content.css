@@ -1,3 +1,10 @@
 .places__content {
     display: flex;
 }
+
+@media (max-width: 320px) {
+    .places__content {
+        display: block;
+        font-size: 0;
+    }
+}

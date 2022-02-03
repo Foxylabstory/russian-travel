@@ -19,3 +19,11 @@
         padding-bottom: 100px; /*90px*/
     }
 }
+
+@media (max-width: 320px) {
+    .places {
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 66px;
+    }
+}

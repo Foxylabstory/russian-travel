@@ -38,6 +38,16 @@
         padding-left: 16px;
         padding-right: 16px;
         font-size: 68px;
-    line-height: 72px;
+        line-height: 72px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__title {
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 40px;
+        line-height: 1.1;
+        min-height: 88px;
     }
 }

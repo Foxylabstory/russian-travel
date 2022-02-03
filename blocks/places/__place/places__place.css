@@ -11,3 +11,9 @@
         padding-bottom: 73px;
     }
 }
+
+@media (max-width: 320px) {
+    .places__place {
+        padding-bottom: 47.5px;
+    }
+}

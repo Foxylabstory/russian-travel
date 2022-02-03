@@ -23,3 +23,10 @@
 .header__lang-link:lang(en) {
     text-decoration-line: none;
 }
+
+@media (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 1.11;
+    }
+}
