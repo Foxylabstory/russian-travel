@@ -1,4 +1,9 @@
 .places__image {
+    max-width: 100%;
+}
+
+/*.places__image {
+    box-sizing: border-box;
     max-width: 460px;
     max-height: 460px;
 }
@@ -23,4 +28,4 @@
         max-height: 320px;
         padding-bottom: 32px;
     }
-}
+}*/

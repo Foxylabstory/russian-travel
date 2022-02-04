@@ -17,3 +17,10 @@
         line-height: 1.63;
     }
 }
+
+@media (max-width: 355px) {
+    .places__paragraph {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

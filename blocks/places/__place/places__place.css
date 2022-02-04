@@ -1,4 +1,9 @@
 .places__place {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: repeat(2, auto);
+    row-gap: 48px;
+    column-gap: 40px;
     padding-bottom: 80px;
 }
 
@@ -6,14 +11,34 @@
     padding-bottom: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .places__place {
-        padding-bottom: 73px;
+        grid-template-columns: 440px 1fr;
+        column-gap: 32px;
     }
 }
 
-@media (max-width: 320px) {
+
+@media (max-width: 768px) {
     .places__place {
-        padding-bottom: 47.5px;
+        grid-template-columns: 340px 1fr;
+        column-gap: 28px;
+        padding-bottom: 73px;
+        row-gap: 45px;
+    }
+}
+
+@media (max-width: 566px) {
+    .places__place {
+        grid-template-columns: 330px;
+        row-gap: 32px;
+        padding-bottom: 48px;
+    }
+}
+
+@media (max-width: 355px) {
+    .places__place {
+        grid-template-columns: 320px;
+        
     }
 }
