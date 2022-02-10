@@ -49,7 +49,7 @@
 @import url('../blocks/footer/__list-item/footer__list-item.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
-
+/*
  .outln {
     outline: 1px solid red;
  }
@@ -70,4 +70,4 @@
    .outln {
        outline: 1px solid #fff;
     }
-}
+}*/
