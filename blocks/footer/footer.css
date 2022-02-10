@@ -23,11 +23,17 @@
     }
 }
 
+@media (max-width: 637px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 566px) {
     .footer {
         padding-top: 64px;
         padding-left: 16px;
-        flex-direction: column;
+        padding-right: 16px;
     }
 }
 

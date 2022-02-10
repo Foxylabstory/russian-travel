@@ -47,6 +47,27 @@
     }
 }
 
+@media (max-width: 600px) {
+    .cover {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cover {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+}
+
+@media (max-width: 400px) {
+    .cover {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+}
+
 @media (max-width: 320px) {
     .cover {
         padding-top: 33px;

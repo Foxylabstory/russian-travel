@@ -1,4 +1,4 @@
-.places__title {
+.place__title {
     margin: 0;
     width: 100%;
     font-style: normal;
@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 768px) {
-    .places__title {
+    .place__title {
         font-size: 42px;
         line-height: 1.1;
         letter-spacing: 1.5px;
@@ -17,7 +17,7 @@
 }
 
 @media (max-width: 355px) {
-    .places__title {
+    .place__title {
         width: calc(100% - 32px);
         font-size: 32px;
         line-height: 1.09;
@@ -26,13 +26,13 @@
 }
 
 /*@media screen and (max-width: 1024px) {
-    .places__title {
+    .place__title {
         max-width: 440px;
     }
 }
 
 @media (max-width: 768px) {
-    .places__title {
+    .place__title {
         max-width: 340px;
         min-height: 46px;
         font-size: 42px;
@@ -40,7 +40,7 @@
         letter-spacing: 1.5px;
     }
 
-    .places__title:nth-of-type(4) {
+    .place__title:nth-of-type(4) {
         letter-spacing: 1.4px;    
     }
 }
